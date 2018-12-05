@@ -1,20 +1,75 @@
 body {
-    background-color: black;
-    width: 95%;
-    margin: auto;
+  background-color: black;
+  width: 95%;
+  margin: auto;
+  overflow: auto;
 }
-
 .header {
-    background: url('素材/starfield-banner.jpg ');
-    position: fixed;
-    width: 95%;
+  background: url('./images/starfield-banner.jpg ');
+  position: fixed;
+  width: 1366px;
+  height: 124px;
 }
-
 .header .logo-link {
-    padding: 10px;
+  padding: 10px;
 }
-
-.header .logo {
-    width:110px;
-    margin:11px;
+.logo {
+  padding: 10px;
+  width: 110px;
+  margin: 11px;
+  position: relative;
+  z-index: 1;
+}
+.leader {
+  position: absolute;
+  top: 5px;
+  left: 300px;
+  color: white;
+}
+.leader li ul {
+  background-color: gray;
+  position: absolute;
+  top: 70px;
+  position: fixed;
+  width: 1000px;
+  height: 30px;
+  left: 300px;
+  font-size: 14px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+.leader li {
+  display: inline;
+  list-style: none;
+  border-right: 1px solid #000;
+  border-color: white;
+  margin: 10px;
+}
+img {
+  margin: 11px;
+}
+#search {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.main {
+  position: absolute;
+  top: 124px;
+  position: fixed;
+  height: 1500px;
+  width: 1366px;
+}
+.picture {
+  position: fixed;
+  width: 668px;
+  height: 615px;
+}
+.headline {
+  color: black;
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  opacity: 0.60;
 }
