@@ -1,0 +1,317 @@
+html {
+  height: 1520px;
+  width: 1500px;
+}
+body {
+  background-color: black;
+  width: 95%;
+  margin: auto;
+}
+.header {
+  background: url('./images/starfield-banner.jpg ');
+  position: absolute;
+  top: 0px;
+  width: 1366px;
+  height: 124px;
+}
+.header .logo-link {
+  padding: 10px;
+}
+.logo {
+  padding: 5px;
+  width: 110px;
+  margin: 8px;
+  position: relative;
+  z-index: 1;
+}
+.leader {
+  position: absolute;
+  top: 22px;
+  left: 350px;
+  color: white;
+  font-size: 18px;
+  margin: 5px 0px;
+}
+.leader li ul {
+  background-color: dimgray;
+  top: 50px;
+  position: absolute;
+  width: 880px;
+  height: 30px;
+  left: -40px;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-left: 0px;
+  display: inline-block;
+  text-align: center;
+}
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+li {
+  padding-right: 5px;
+}
+#no_border {
+  border-right: none;
+}
+.leader li {
+  display: inline;
+  list-style: none;
+  border-right: 2px solid #33333364;
+  border-color: darkgray;
+  margin: 5px;
+}
+.search_box {
+  background-color: #333333;
+  position: absolute;
+  right: 60px;
+  top: 20px;
+}
+.Search_content {
+  background-color: #333333;
+  width: 110px;
+  height: 20px;
+  border: none;
+  padding: 10px 36px 10px 10px;
+}
+.search {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin-top: 5px;
+  top: 0;
+  right: 0;
+  background: url(./images/search.svg);
+  border: none;
+  cursor: pointer;
+}
+.share {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.main {
+  position: absolute;
+  top: 124px;
+  height: 1500px;
+  width: 1366px;
+}
+.first_plate {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  position: absolute;
+  width: 668px;
+  height: 615px;
+}
+.headline {
+  color: black;
+  position: absolute;
+  bottom: 5px;
+  background-color: white;
+  opacity: 0.60;
+  width: 90%;
+  padding: 10px;
+}
+.tag {
+  position: absolute;
+  bottom: 45px;
+  color: white;
+  background-color: blue;
+  opacity: 0.60;
+  padding: 10px;
+}
+.big_backage {
+  width: 668px;
+  height: 615px;
+}
+.second_plate {
+  position: absolute;
+  left: 683px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 326.5px;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.second_plate .tag {
+  position: absolute;
+  bottom: 65px;
+}
+.second_plate .headline {
+  width: 326.5px;
+}
+.third_plate {
+  color: white;
+  position: absolute;
+  right: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 326.5px;
+  font-size: 14px;
+  background-color: cornflowerblue;
+  background-clip: content-box;
+}
+.more {
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 5px;
+  width: 326.5px;
+}
+.topic {
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+.fourth_plate {
+  position: absolute;
+  top: 315px;
+  right: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  width: 668px;
+  height: 300px;
+}
+.fifth_plate {
+  position: absolute;
+  top: 633px;
+  left: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 326.5px;
+}
+.sixth_plate {
+  position: absolute;
+  top: 633px;
+  left: 351.5px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  width: 680px;
+  height: 300px;
+}
+.seventh_plate {
+  position: absolute;
+  right: 0px;
+  top: 633px;
+  height: 300px;
+  width: 326.5px;
+  background-color: white;
+  background-clip: content-box;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+}
+video{
+  height: 100%;
+  width: 100%;
+}
+.eighth_plate {
+  position: absolute;
+  top: 950px;
+  left: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 326.5px;
+}
+.eighth_plate .tag {
+  bottom: 65px;
+}
+.ninth_plate {
+  position: absolute;
+  top: 950px;
+  left: 351.5px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 326.5px;
+}
+.ninth_plate .tag {
+  bottom: 65px;
+}
+.tenth_plate {
+  position: absolute;
+  top: 950px;
+  left: 695px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 310px;
+}
+.tenth_plate .tag {
+  bottom: 65px;
+}
+.eleventh_plate {
+  position: absolute;
+  top: 950px;
+  right: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  padding-bottom: 5px;
+  height: 300px;
+  width: 326.5px;
+}
+.eleventh_plate .tag {
+  bottom: 67px;
+}
+.footer {
+  position: absolute;
+  bottom: -950px;
+  width: 1366px;
+  height: 150px;
+}
+.status{
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-size: 13px;
+  color: white;
+}
+.read_more {
+  position: absolute;
+  bottom: -750px;
+  width: 1366px;
+  height: 40px;
+  padding-top: 20px;
+  background: blue;
+  font-weight: bold;
+  text-align: center;
+}
+.status p{
+  margin: 0px;
+}
+.information{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.information li{
+  display: inline;
+  padding: 10px;
+}
+.information li a{
+  color: blue;
+  font-size: 13px;
+}
