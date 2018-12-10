@@ -87,6 +87,9 @@ li {
   border: none;
   cursor: pointer;
 }
+input {
+  color: white;
+}
 .share {
   height: 40px;
   width: 40px;
